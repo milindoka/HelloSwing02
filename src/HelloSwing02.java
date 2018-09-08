@@ -14,9 +14,9 @@ public class HelloSwing02 {
     
     JButton ButtonArray[];  //button array
     ButtonArray = new JButton[12];
-    Color colors[]={Color.RED,Color.GREEN,Color.BLUE,Color.YELLOW,Color.MAGENTA,Color.CYAN,Color.WHITE,Color.BLACK,Color.GRAY,Color.LIGHT_GRAY,Color.DARK_GRAY,Color.PINK,Color.ORANGE};
+    final Color colors[]={Color.RED,Color.GREEN,Color.BLUE,Color.YELLOW,Color.MAGENTA,Color.CYAN,Color.WHITE,Color.BLACK,Color.GRAY,Color.LIGHT_GRAY,Color.DARK_GRAY,Color.PINK,Color.ORANGE};
     ActionListener genericAL;
-    Random rand = new Random();
+    final Random rand = new Random();
 
     for(int i = 0; i < 12; i++) 
     {
